@@ -1,7 +1,7 @@
-body{
+body {
   background-color: #1f1b24;
   justify-content: center;
-  align-items:  center;
+  align-items: center;
   display: flex;
 }
 
@@ -20,8 +20,9 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
-  
 }
+
+/* Botões com estilo */
 .buttonOP {
   border-radius: 10px;
   background: rgba(100,100,100, 0.1);
@@ -32,20 +33,26 @@ body{
   font-family: 'Arial';
   width: 100px;
   height: 30px;
-  transition: all 0.3s ease; /* <- aqui */
+  transition: all 0.3s ease;
   margin-right: 50px;
+  cursor: pointer; /* deixa cursor em pointer */
 }
 
+/* Efeito hover */
 .buttonOP:hover {
   width: 120px;
   height: 50px;
-  border-color:rgb(1, 1, 31)
+  border-color: rgb(1, 1, 31);
 }
-.buttonOP:checked{
+
+/* Estado checked - opcional, não muito usado em botões normais */
+.buttonOP:checked {
   background-color: white;
-  color:black
+  color: black;
 }
-.div2{
+
+/* Conteúdo principal */
+.div2 {
   margin-top: 50px;
   position: relative;
   top: 20px;
@@ -59,7 +66,66 @@ body{
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: rgb(124, 118, 118);
 }
-.imagens{
+
+/* Imagens */
+.imagens {
   width: 500px;
   height: 500px;
+}
+
+/* ==== Novas regras para links (React Router <Link>) que usam classe buttonOP ==== */
+
+/* Remove o sublinhado padrão dos links */
+a.buttonOP {
+  text-decoration: none;
+  color: white; /* mantém a cor branca */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background: rgba(100, 100, 100, 0.1);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+  font-family: 'Arial';
+  transition: all 0.3s ease;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+/* Hover nos links igual ao hover dos botões */
+a.buttonOP:hover {
+  width: 120px;
+  height: 50px;
+  border-color: rgb(1, 1, 31);
+  text-decoration: none; /* reforça sem sublinhado */
+  color: white;
+}
+
+/* Para remover o foco padrão (opcional) */
+a.buttonOP:focus {
+  outline: none;
+  text-decoration: none;
+}
+.selecionartipopedido{
+  border-radius: 10px;
+  border: 0;
+  background: rgba(100, 100, 100, 0.1);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial';
+  width: 185px;
+  height: 30px;
+  transition: all 0.3s ease;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.selecionartipopedido:hover{
+  width: 200px;
+  height: 50px;
+  border-color: rgb(1, 1, 31);
 }

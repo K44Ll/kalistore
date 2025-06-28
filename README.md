@@ -5,5 +5,18 @@
 >    > Dc : kali_null
 >
 >    > Email: wolfcookie20009@gmail.com
+---
+# COMMIT 1
+
+- Criação do repositório
+- Primeira introdução do código (NÃO FINALIZADO)
+
+---
+# COMMIT 2 
+
+- Integração de um sistema de http request que envia os pedidos para um bot do telegram
+- Pequenas correções de bugs
+
+
 
 # ⚠ PROJETO NÃO FINALIZADO!!!
