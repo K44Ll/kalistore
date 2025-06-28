@@ -129,3 +129,16 @@ a.buttonOP:focus {
   height: 50px;
   border-color: rgb(1, 1, 31);
 }
+.paragrafo{
+  color: #bb86fc;
+  font-family: Arial;
+}
+h2{
+  color: #a166e9;
+  font-family: Arial;
+}
+.paragrafofoot{
+  color: #bb86fc;
+  font-family: Arial;
+  font-size: 10px;
+}
