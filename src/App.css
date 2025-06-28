@@ -1,0 +1,65 @@
+body{
+  background-color: #1f1b24;
+  justify-content: center;
+  align-items:  center;
+  display: flex;
+}
+
+.Div1 {
+  position: relative;
+  top: 20px;
+  width: 1000px;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgb(124, 118, 118);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.buttonOP {
+  border-radius: 10px;
+  background: rgba(100,100,100, 0.1);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+  color: white;
+  font-family: 'Arial';
+  width: 100px;
+  height: 30px;
+  transition: all 0.3s ease; /* <- aqui */
+  margin-right: 50px;
+}
+
+.buttonOP:hover {
+  width: 120px;
+  height: 50px;
+  border-color:rgb(1, 1, 31)
+}
+.buttonOP:checked{
+  background-color: white;
+  color:black
+}
+.div2{
+  margin-top: 50px;
+  position: relative;
+  top: 20px;
+  width: 1000px;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgb(124, 118, 118);
+}
+.imagens{
+  width: 500px;
+  height: 500px;
+}
